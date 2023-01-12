@@ -7,10 +7,10 @@ Second hand cars have a huge market base and many people consider buying an used
 
 ## 2. BUSINESS PROBLEM
 ### The Problem statement
-Royal car Dealers have a car yard.They mainly deal in selling new cars but want to make a shift to second hand dealership like other yards.There is a lack of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end uppaying more or less for a used car than it is actually worth, leading to financial losses or missed opportunities for savings.
+Royal car Dealers have a car yard.They mainly deal in selling new cars but want to make a shift to second hand dealership like other yards.There is a lack of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end up paying more or less for a used car than it is actually worth, leading to financial losses or missed opportunities for savings.
 
 ### Main Objective
-This project aims at solving the problem of predicting the price of a used car based on their features, using machine learning techniques..This will help people to decide whether the used car is worth the posted price by different online sites used as well as plan on when sell their cars.
+The main objective of this project is aimed at predicting the price of a used car based on their features by using machine learning techniques.This will help people to decide whether the used car is worth the posted price on different online sites in order to decide on when to sell or buy used cars.
 
 ## 3. NOTEBOOK STRUCTURE
 The python notebook is structured as follows:
@@ -23,9 +23,13 @@ The python notebook is structured as follows:
 ### The Data
 The data used in this project was downloaded from Kaggle and these are the features.
 The car name
+
 The year the car was manufactured
+
 The mileage(kmpl)
+
 The car selling Price(indian Rupee)
+
 The kms driven
 max power
 The type of fuel used
@@ -38,11 +42,11 @@ Lastly, to validate this data reference was made to an article by Toptal which c
 
 ### Data Preparation
 The data was checked for missing values and some columns were found to have null values.The null values were handled by dropping all the rows with them.
-Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier to work with dataframe
+Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier dataframe to be used for this analysis.
 We also found duplicates in the data which we dropped.
 
 ### Exploratory Data Analysis
-By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables.. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
+By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
 
 ### Data Interpretation
 In this Project, we are going to predict the Price of Used Cars using various features like  Selling_Price, Kms_Driven, Fuel_Type, Year etc. The data used in this project was downloaded from Kaggle.
