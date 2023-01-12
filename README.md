@@ -1,7 +1,7 @@
 
 # USED CAR PRICE PREDICTION USING MACHINE LEARNING
-![image](![image](https://user-images.githubusercontent.com/116062465/212137651-adc965b4-653b-40de-afa6-3f6ab9f90373.png)
-)
+![image](https://user-images.githubusercontent.com/116062465/212169589-cd768617-111d-4470-92f7-8334dee9e861.png)
+
 
 ## 1. INTORDUCTION
 Second hand cars have a huge market base and many people consider buying an used car instead of getting a new one.Considering that their so many frauds in the market who not only sale wrong but also mislead to wrong price.
