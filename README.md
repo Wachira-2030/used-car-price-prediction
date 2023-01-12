@@ -6,39 +6,49 @@
 Second hand cars have a huge market base and many people consider buying an used car instead of getting a new one.Considering that their so many frauds in the market who not only sale wrong but also mislead to wrong price.
 
 ## 2. BUSINESS PROBLEM
-The Problem statement
+### The Problem statement
 Royal car Dealers have a car yard.They mainly deal in selling new cars but want to make a shift to second hand dealership like other yards.There is a lack of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end uppaying more or less for a used car than it is actually worth, leading to financial losses or missed opportunities for savings.
-Main Objective
+
+### Main Objective
 This project aims at solving the problem of predicting the price of a used car based on their features, using machine learning techniques..This will help people to decide whether the used car is worth the posted price by different online sites used as well as plan on when sell their cars.
-## 2 NOTEBOOK STRUCTURE
+
+## 3. NOTEBOOK STRUCTURE
 The python notebook is structured as follows:
 1. Data cleaning
 2. Exploratory Data Analysis
 3. Feature selection 
 4. Data Modelling and evaluation
 
-## 3. DATA UNDERSTANDING
-The Data
+## 4. DATA UNDERSTANDING
+### The Data
+The data used in this project was downloaded from Kaggle and these are the features.
+The car name
+The year the car was manufactured
+The mileage(kmpl)
+The car selling Price(indian Rupee)
+The kms driven
+max power
+The type of fuel used
+The seller type
+The transmission type of the car
+The owners
+torque
+seats
+Lastly, to validate this data reference was made to an article by Toptal which can be accessed using the this link https://www.toptal.com/data-science/improving-imdb-rating-system. To confirm the validity of the data a a Kernel Distribution Estimation (KDE) graph was plotted.
 
+### Data Preparation
+The data was checked for missing values and some columns were found to have null values.The null values were handled by dropping all the rows with them.
+Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier to work with dataframe
+We also found duplicates in the data which we dropped.
 
+### Exploratory Data Analysis
+By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables.. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
 
-## 3 METHODOLOGY
-The following steps were taken in order to clean the data using this notebook:
-
-The data was checked for null values where it was discovered that all the columns apart from manufacturer and price had null values present.
-The null values was handled on a column by column basis; dropping the null values for some and filling the null values manually based on further analysis and by checking the cars45 site.
-Some columns were not in their appropriate data type so this was corrected.
-Further preprocessing was done on the color column to replace the ambiguous color names to simpler names.
-
-### 3.1 REGRESSION ANALYSIS
-Formally, a regression analysis consists of a series of statistical processes aimed at estimating the relationships existing between a set of variables; in particular we try to estimate the relationship between a special variable called dependent (selling Price) and the remaining independent variables (the other features). This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
-#### 3.1.1 Data Analysis
+### Data Interpretation
 In this Project, we are going to predict the Price of Used Cars using various features like  Selling_Price, Kms_Driven, Fuel_Type, Year etc. The data used in this project was downloaded from Kaggle.
-#### 3.1.2 Data Preprocessing
 
-## 4 COMPARING REGRESSION MODELS
+## 5.CONCLUSIONS AND RECOMMENDATIONS
+1.Selling Price of cars seems to have higher prices when sold by Dealers.
+2.Selling Price would be higher for cars that are Automatic. 
+3.Selling Price of cars with Fuel Type of Diesel is higher than Petrol, CNG  and LPG.
 
-## 5 EXPERIMENTAL RESULTS
-
-## 6 CONCLUSIONS
-======
