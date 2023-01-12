@@ -37,7 +37,7 @@ The transmission type of the car(Gear System is Automatic/Manual)
 The owners(first owner/Second Owner)
 Torque power in newtons meters
 Seats(No.of seats )
-Lastly, to validate this data reference was made to an article [by](https://www.databridgemarketresearch.com/reports/global-used-car-market)
+Lastly, to validate this data reference was made to an article by [Data Bridge Market Research](https://www.databridgemarketresearch.com/reports/global-used-car-market)
 
 ### Data Preparation
 The data was checked for missing values and some columns were found to have null values.The null values were handled by dropping all the rows with them.
@@ -46,26 +46,30 @@ We also had duplicates in the data which we dropped.
 
 ### Exploratory Data Analysis
 By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables.. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
+
 ![image](https://user-images.githubusercontent.com/116062465/212166267-f6765288-de1a-4d4d-a03b-2d92c201d2a0.png)
+
 The lighter values indicate a high value of correlation while the darker values indicate low value of correlation
 ### Data Interpretation
 In this Project, we are going to predict the Price of Used Cars using various features like  Selling_Price, Kms_Driven, Fuel_Type, Year etc. 
+
 ![image](https://user-images.githubusercontent.com/116062465/212165581-2cd03e5e-b4f7-459f-937f-2a64e808b325.png)
 
 
 
 ## 5.CONCLUSIONS AND RECOMMENDATIONS
-1.Selling Price of cars seems to have higher prices when sold by Dealers.
-2.Selling Price would be higher for cars that are Automatic. 
-3.Selling Price of cars with Fuel Type of Diesel is higher than Petrol, CNG  and LPG.
-4.The model explains 75% of the variation in the selling price of the cars.
-5.The top factors that affect the selling price are Maximum power,torque and seats.
-6.For each increase of 1 bhp in max_power , we see an associated increase of about 0.3769 Dollars.
-7.For each increase of 1 km in km_driven, we see an associated drop of about 0.1118 Dollars.
-8.Would highly recommend car buyers to buy  car from individuals rather than going to dealers.
+- 1.Selling Price of cars seems to have higher prices when sold by Dealers.
+- 2.Selling Price would be higher for cars that are Automatic. 
+- 3.Selling Price of cars with Fuel Type of Diesel is higher than Petrol, CNG  and LPG.
+- 4.The model explains 75% of the variation in the selling price of the cars.
+- 5.The top factors that affect the selling price are Maximum power,torque and seats.
+- 6.For each increase of 1 bhp in max_power , we see an associated increase of about 0.3769 Dollars.
+- 7.For each increase of 1 km in km_driven, we see an associated drop of about 0.1118 Dollars.
+- 8.Would highly recommend car buyers to buy  car from individuals rather than going to dealers.
 
 
 
 ## 6.REPOSITORY GUIDE
-The data set used can be found [under](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho)
-
+The data set used can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/Car%20details%20v3.csv)
+The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
+The notebook can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index.ipynb)
