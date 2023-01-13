@@ -4,14 +4,14 @@
 
 
 ## 1. INTORDUCTION
-Royal Car Dealers has a car yard. They primarily sell new cars but hope to expand into used car sales like other yards. There is a large market for used cars. Because of the large price difference between new and used cars, many people prefer to buy used. There is a scarcity of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end up paying more or less for a used car than it is actually worth, resulting in financial losses or missed savings opportunities. This issue disproportionately affects first-time car buyers or those with limited knowledge of the used car market.
+Royal Car Dealers has a car yard. They primarily sell new cars but hope to expand into used car sales like other yards. There is a large market for used cars. Because of the large price difference between new and used cars, many people prefer to buy used.The car yard is hoping to expand and venture into sale of used cars. Information about the appropriate price to sell is not available so the management has requested for a model that could predict the price of a used car based on its features.
 
 ## 2. BUSINESS PROBLEM
 ### The Problem statement
-Royal car Dealers have a car yard.They mainly deal in selling new cars but want to make a shift to second hand dealership like other yards.There is a lack of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end up paying more or less for a used car than it is actually worth, leading to financial losses or missed opportunities for savings.
+Information about the appropriate price to sell is not available so the management has requested for a model that could predict the price of a used car based on its features.This will help the car yard to decide whether the used car is worth the posted price to the consumers.
 
 ### Main Objective
-This project aims at solving the problem of predicting the price of a used car based on their features, using machine learning techniques..This will help people to decide whether the used car is worth the posted price by different online sites used as well as plan on when sell their cars.
+This project aims at solving the problem of predicting the price of a used car based on their features, using machine learning techniques.
 
 ## 3. NOTEBOOK STRUCTURE
 The notebook is [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index1.ipynb)
@@ -57,7 +57,7 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 
 
 
-## 5.CONCLUSIONS AND RECOMMENDATIONS
+## 5.CONCLUSIONS 
 - Selling Price of cars seems to have higher prices when sold by Dealers.
 - Selling Price would be higher for cars that are Automatic. 
 - Selling Price of cars with Fuel Type of Diesel is higher than Petrol, CNG  and LPG.
@@ -65,11 +65,14 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 - The top factors that affect the selling price are Maximum power,torque and seats.
 - For each increase of 1 bhp in max_power , we see an associated increase of about 0.3769 Dollars.
 - For each increase of 1 km in km_driven, we see an associated drop of about 0.1118 Dollars.
-- Would highly recommend car buyers to buy  car from individuals rather than going to dealers.
+- 
+## 6.RECOMMENDATIONS
+- Royal Car Dealers should pursue the business as it is profitable (cars sold by dealers go for higher prices). 
+- Royal car yard should consider selling automatic cars, those that have higher max_power and those that use diesel because most consumers prefer them as shown by the   increase in selling price
+- When choosing which cars to purchase, they should consider the km that it has been driven since 1 km increase in km_driven leads to a decrease in selling price.
 
 
-
-## 6.REPOSITORY GUIDE
+## 7.REPOSITORY GUIDE
 - The data set used can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/Car%20details%20v3.csv)
 - The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
 - The notebook can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index.ipynb)
