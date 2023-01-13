@@ -4,7 +4,7 @@
 
 
 ## 1. INTORDUCTION
-Second hand cars have a huge market base and many people consider buying an used car instead of getting a new one.Considering that their so many frauds in the market who not only sale wrong but also mislead to wrong price.
+Royal Car Dealers has a car yard. They primarily sell new cars but hope to expand into used car sales like other yards. There is a large market for used cars. Because of the large price difference between new and used cars, many people prefer to buy used. There is a scarcity of information available to consumers about the relationship between used car prices and mileage. As a result, consumers may end up paying more or less for a used car than it is actually worth, resulting in financial losses or missed savings opportunities. This issue disproportionately affects first-time car buyers or those with limited knowledge of the used car market.
 
 ## 2. BUSINESS PROBLEM
 ### The Problem statement
