@@ -63,8 +63,6 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 - Selling Price of cars with Fuel Type of Diesel is higher than Petrol, CNG  and LPG.
 - The model explains 75% of the variation in the selling price of the cars.
 - The top factors that affect the selling price are Maximum power,torque and seats.
-- For each increase of 1 bhp in max_power , we see an associated increase of about 0.3769 Dollars.
-- For each increase of 1 km in km_driven, we see an associated drop of about 0.1118 Dollars.
 - 
 ## 6.RECOMMENDATIONS
 - Royal Car Dealers should pursue the business as it is profitable (cars sold by dealers go for higher prices). 
@@ -76,3 +74,4 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 - The data set used can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/Car%20details%20v3.csv)
 - The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
 - The notebook can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index.ipynb)
+- The Data Report can be found [here](https://www.canva.com/design/DAFXiNjCN-o/oBZXk_wvi-jTLk2v5q-sKw/view?utm_content=DAFXiNjCN-o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
