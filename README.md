@@ -8,7 +8,7 @@ Royal Car Dealers has a car yard. They primarily sell new cars but hope to expan
 
 ## 2. BUSINESS PROBLEM
 ### The Problem statement
-Information about the appropriate price to sell is not available so the management has requested for a model that could predict the price of a used car based on its features.This will help the car yard to decide whether the used car is worth the posted price to the consumers.
+Information about the appropriate price to sell is not available so the management has requested for a model that could predict the price of a used car based on its features.We identify the features that are significant in predicting the price of a usde car.We also identify how well those features describe the price of a used car.This will help the car yard to decide whether the used car is worth the posted price to the consumers.
 
 ### Main Objective
 This project aims at solving the problem of predicting the price of a used car based on their features, using machine learning techniques.
