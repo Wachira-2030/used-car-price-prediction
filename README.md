@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/116062465/212169589-cd768617-111d-4470-92f7-8334dee9e861.png)
 
 
-## 1. INTORDUCTION
+## 1. INTRDUCTION
 Royal Car Dealers has a car yard. They primarily sell new cars but hope to expand into used car sales like other yards. There is a large market for used cars. Because of the large price difference between new and used cars, many people prefer to buy used.The car yard is hoping to expand and venture into sale of used cars. Information about the appropriate price to sell is not available so the management has requested for a model that could predict the price of a used car based on its features.
 
 ## 2. BUSINESS PROBLEM
@@ -74,4 +74,4 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 - The data set used can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/Car%20details%20v3.csv)
 - The data report can be found [here](https://docs.google.com/document/d/1B9I0-xRG8lxLWqaBFGVek-dTkqbagRHvYpjNrPdN8tU/edit#heading=h.k2dex7ijg0)
 - The notebook can be found [here](https://github.com/Wachira-2030/used-car-price-prediction/blob/main/index.ipynb)
-- The Data Report can be found [here](https://www.canva.com/design/DAFXiNjCN-o/oBZXk_wvi-jTLk2v5q-sKw/view?utm_content=DAFXiNjCN-o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- The Presentation Slides can be found [here](https://www.canva.com/design/DAFXiNjCN-o/oBZXk_wvi-jTLk2v5q-sKw/view?utm_content=DAFXiNjCN-o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
